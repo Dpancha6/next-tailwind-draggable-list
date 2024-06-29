@@ -5,12 +5,12 @@ import { DragDropContext, Droppable, Draggable, DropResult, DragStart, DragUpdat
 import { Card, CardContent } from "./components/ui/card";
 
 const initialItems = [
-  { id: '1', title: 'Scotland Island', location: 'Sydney, Australia', image: '/Scotland_Island.jpg' },
-  { id: '2', title: 'The Charles Grande Brasserie & Bar', location: 'Lorem ipsum, Dolor', image: '/the-charles-grand-brasserie-and-bar.jpg' },
-  { id: '3', title: 'Bridge Climb', location: 'Dolor, sit amet', image: '/the-bridgeclimb.jpg' },
-  { id: '4', title: 'Manly Beach', location: 'Sydney, Australia', image: '/Scotland-island.webp' },
-  { id: '5', title: 'Clam Bar', location: 'Et cetera veni, Vidi vici', image: '/Clam_Bar.webp' },
-  { id: '6', title: 'Vivid Festival', location: 'Sydney, Australia', image: '/Vivid_Festival.png' },
+  { id: '1', title: 'Scotland Island', location: 'Sydney, Australia', image: './Scotland_Island.jpg' },
+  { id: '2', title: 'The Charles Grande Brasserie & Bar', location: 'Lorem ipsum, Dolor', image: './the-charles-grand-brasserie-and-bar.jpg' },
+  { id: '3', title: 'Bridge Climb', location: 'Dolor, sit amet', image: './the-bridgeclimb.jpg' },
+  { id: '4', title: 'Manly Beach', location: 'Sydney, Australia', image: './Scotland-island.webp' },
+  { id: '5', title: 'Clam Bar', location: 'Et cetera veni, Vidi vici', image: './Clam_Bar.webp' },
+  { id: '6', title: 'Vivid Festival', location: 'Sydney, Australia', image: './Vivid_Festival.png' },
 ];
 
 export default function Home() {
